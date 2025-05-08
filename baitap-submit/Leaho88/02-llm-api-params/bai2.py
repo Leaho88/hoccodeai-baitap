@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv();
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"));
+
 # Init conversation
 messages = [{
     "role": "system",
